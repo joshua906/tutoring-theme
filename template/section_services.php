@@ -35,7 +35,13 @@ $subheading = get_theme_mod('our_services_subheading','');
     <div class="container">
     	<div class="row">
     		<div class="col-md-12">
-    			<h1>My name</h1>
+    			<h1 class="wow fadeInRight" data-wow-delay="0s">Hi, my  name is Melina</h1>
+    			
+    			<p class="wow fadeInRight" data-wow-delay="0s">I help elementary school students become better readers so they can improve their test scores and overall comprehension of class material even if their confidence and self esteem is low.  </p>
+    			
+    			<p class="wow fadeInRight" data-wow-delay="0s">I do that by working with students one on one or within a group setting and catering a unique lesson plan for each individual that achieves optimal growth.I believe in order to teach a child you must create a relationship first with the child, By doing this I am able to learn about them and their learning style which helps me cater lesson plans that build confidence and understanding of course material. </p>
+    			
+    			<p class="wow fadeInRight" data-wow-delay=".2s">Learn More About Janes Jounrey to becoming a teacher  here >></p>
     		</div>
     	</div>
     </div>

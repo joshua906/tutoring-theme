@@ -4,9 +4,9 @@ $heading = get_theme_mod('our_services_heading','');
 $subheading = get_theme_mod('our_services_subheading','');
 ?>
 <div class="service-wrapper">
-<?php echo  oneline_lite_svg_enable(); ?>
+<!--<?php echo  oneline_lite_svg_enable(); ?>-->
 <section id="services" class="svg_enable" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" >
-    <div class="container">
+    <!--<div class="container">
         <div class="page-services">
         <?php if($heading!=''){ ?>
             <h2 class="main-heading wow fadeInRight" data-wow-delay="0s"><?php echo esc_html($heading); ?></h2>
@@ -30,6 +30,14 @@ $subheading = get_theme_mod('our_services_subheading','');
                 </ul>
             </div>
         </div>
+    </div>-->
+    
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<h1>My name</h1>
+    		</div>
+    	</div>
     </div>
 </section>
 </div>

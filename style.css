@@ -262,7 +262,7 @@ a img.aligncenter {
     display: block;
     background: #1f1f1f;
 }
-}
+
 
 .sticky { color:#7D7D7D; }   
 .bypostauthor {
@@ -311,7 +311,7 @@ padding: 0;
 }
 
 .home .navigation ul li a, .home .navigation ul li a:link {
-    color: #fff;
+    color: #565C6F;
 }
 .home .smaller .navigation ul.sub-menu li a:hover{
   color:#D4B068;
@@ -676,6 +676,7 @@ margin:0;
 padding-top:15px;
  }
 .header {
+border-bottom: 1px solid #EDEDED;
 width:100%;
 position:fixed;
 top: 0;
@@ -718,7 +719,7 @@ letter-spacing: .5px;
 color: #D4B068;;
 }
 .header.smaller {
-background-color:rgba(20, 20, 20, 0.952941);  
+background-color:rgba(86, 92, 111, 0.952941);  
 }
 .header.smaller #logo {
 padding-top:15px;

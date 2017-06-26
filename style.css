@@ -53,10 +53,40 @@ style in this file. You have been warned! :)
     src: url('font/Montserrat-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
-}         
-                                      
+} 
+
+@font-face {
+    font-family: 'RobotoSlab-Bold';
+    src: url('font/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight:700;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'RobotoSlab-Light';
+    src: url('font/RobotoSlab-Light.ttf') format('truetype');
+    font-weight:300;
+    font-style: normal;
+}    
+
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url('font/RobotoSlab-Regular.ttf') format('truetype');
+    font-weight:400;
+    font-style: normal;
+}  
+
+@font-face {
+    font-family: 'RobotoSlab-Thin';
+    src: url('font/RobotoSlab-Thin.ttf') format('truetype');
+    font-weight:100;
+    font-style: normal;
+}  
+
+p { 
+	font-family: 'RobotoSlab-Light'; 
+}
 body {
-font-family:"Roboto-Light",sans-serif;
+font-family:"RobotoSlab-Light",sans-serif;
 background:#f7f7f7;
 font-size: 15px;
 font-weight: 400;
@@ -112,7 +142,7 @@ strong {
 a, p, ul, ul li,ol, ol li,
  .contact-form2 textarea, .navigation ul li a, .navigation ul li a, .navigation ul li a:link,
 .price-content{
-  font-family: 'Roboto-Light',sans-serif;
+  font-family: 'RobotoSlab-Light',sans-serif;
 }
 ul, ul li, ol, ol li{
     font-size: 14px;

@@ -87,7 +87,7 @@ p {
 }
 body {
 font-family:"RobotoSlab-Light",sans-serif;
-background:#f7f7f7;
+
 font-size: 15px;
 font-weight: 400;
 line-height: 1.42857143;
@@ -103,7 +103,7 @@ height:auto!important;
 
 ::selection {
     color: #fff; 
-    background: #D4B068;
+   
 }
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -114,6 +114,7 @@ height:auto!important;
 h1, h2, h3, h4, h5, h6 {
 font-family:"Montserrat-Regular",sans-serif;
 letter-spacing:2px;
+ 
 }
 
 h1 {
@@ -133,6 +134,9 @@ h5 {
 }
 h6 {
   font-size: 14px;
+}
+.dark-blue{
+	color: #565C6F;
 }
 strong {
     color: #1F1F1F;
@@ -188,7 +192,17 @@ overflow: auto;
 padding: 1.6em;
  font-family: 'Roboto-Light',sans-serif;
 }
-
+.button {
+	background-color: #90DBE2; 
+    border: none;
+    color: white;
+    padding: 15px 32px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	border-radius: 25px;
+}
 /* wp css */
 .single-post .sl-related-thumbnail-size img{
 height:auto;
@@ -503,10 +517,10 @@ zoom: 1;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
 border-radius: 4px;
--webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+/*-webkit-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
 -moz-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
 -o-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
-box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);
+box-shadow: '' 0 1px 4px rgba(0, 0, 0, 0.2);*/
 }
 .flexslider .slides {
 zoom: 1;
@@ -600,10 +614,10 @@ background: #666;
 background: rgba(0, 0, 0, 0.5);
 cursor: pointer;
 text-indent: -9999px;
--webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+/*-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
 -o-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);*/
 -webkit-border-radius: 20px;
 -moz-border-radius: 20px;
 border-radius: 20px;
@@ -719,7 +733,8 @@ letter-spacing: .5px;
 color: #D4B068;;
 }
 .header.smaller {
-background-color:rgba(86, 92, 111, 0.952941);  
+background-color:rgba(86, 92, 111, 0.952941); 
+	border-bottom: none;
 }
 .header.smaller #logo {
 padding-top:15px;
@@ -1113,6 +1128,9 @@ display:block;
 overflow: hidden;
 background-color:#fff;
 }
+.about-background {
+	background-color: #565C6F;
+}
 .page-services{
 width: 100%;
 float: left;
@@ -1233,6 +1251,12 @@ transition: all 1s ease;
 }
 /*------end service section style--------*/
 /*------start ribbon section style--------*/
+.services {
+	background-color: #FBFCFF !important;
+}
+#ribbon:before{
+	background-color: #FBFCFF !important;
+}
 #ribbon{
     display:block;
     overflow: hidden;
@@ -1258,11 +1282,11 @@ transform: translateX(-50%) translateY(-50%);
 .ribon-box{
 width:100%;
 overflow: hidden;
-text-align: center;
+
 }
 .ribbon-content{
 width:100%;
-text-align: center;
+
 max-width: 500px;
 margin: 0 auto; 
 }
@@ -5110,7 +5134,7 @@ height: auto;
     display: block;
 }
 #testimonials:before,#contact:before,#ribbon:before{
-  background: #1F1F1F;
+  background: #222;
   content: '';
     width: 100%;
     height: 100%;

@@ -3,9 +3,9 @@
 $heading = get_theme_mod('our_services_heading','');
 $subheading = get_theme_mod('our_services_subheading','');
 ?>
-<div class="service-wrapper">
+<div class="service-wrapper about-background">
 <!--<?php echo  oneline_lite_svg_enable(); ?>-->
-<section id="services" class="svg_enable" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" >
+<section id="about" class="svg_enable" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" >
     <!--<div class="container">
         <div class="page-services">
         <?php if($heading!=''){ ?>

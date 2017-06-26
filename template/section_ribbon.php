@@ -5,7 +5,7 @@ $heading = get_theme_mod('ribbon_heading','');
 $ribbon_button_text = get_theme_mod('ribbon_button_text','');
 ?>
 <div class="ribbon-wrapper">
-<?php echo  oneline_lite_svg_enable(); ?>
+<!--<?php echo  oneline_lite_svg_enable(); ?>-->
 <section id="ribbon" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" >
 <?php if(get_theme_mod('ribbon_bg_options')!==''){?>
 <video  data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" autoplay="autoplay" loop="loop" id="bgvid"  poster="<?php echo esc_url(get_theme_mod('ribbon_bg_image')); ?>">
@@ -13,10 +13,10 @@ $ribbon_button_text = get_theme_mod('ribbon_button_text','');
 <?php } ?>
             <div class="container">
                
-                <div class="ribon-box ">
+                <div class="services ribon-box ">
                    <div class="row">
                    	<div class="col-md-12">
-                   		<h1 class="wow fadeInRight" data-wow-delay="0s"> Here's how I can help </h1>
+                   		<h1 class="dark-blue wow fadeInRight" data-wow-delay="0s"> Here's how I can help </h1>
                    		<p>By gaining a strong foundation to read and write  early in a child's development, your child will improve their ability to communicate, discover new things, helps develop the creative side to people, helps them learn to listen, and also improves a child's writing. I can help your child gain clarity and understanding by teaching them: </p>
                    	</div>
                    </div>

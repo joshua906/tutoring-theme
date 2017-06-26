@@ -1,9 +1,20 @@
 <?php  if( shortcode_exists( 'themehunk-customizer-oneline-lite' ) ) {  ?>
 <div id="slider-div">
+
     <div id="page-top" class="slider">  
-        <div class="flexslider">
+       <div class="container">
+       	<div class="row">
+       		<div class="col-md-5">
+       			<h1>Your reading and writing elementary school tutor!</h1>
+       			<p>Is your child struglging in reading or writing? No problem, I can help! </p>
+       			<button class="button">Schedule your Appointment!</button>
+       		</div>
+       		<div class="col-md-7"></div>
+       	</div>
+       </div>
+        <!--<div class="flexslider">
             <ul class="slides">
-                <!-- #1 Slider -->
+                <!-- #1 Slider 
                 <?php if (get_theme_mod('first_slider_image','') != '') { ?>
                 <li data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" style="background:url('<?php echo esc_url(get_theme_mod('first_slider_image')); ?>');">
                     <div class="over-lay">
@@ -22,7 +33,7 @@
                 <?php }else{
                     echo do_shortcode("[themehunk-customizer-oneline-lite did='4']");
                  } ?>
-                <!-- #2 Slider -->
+                <!-- #2 Slider 
                   <?php if (get_theme_mod('second_slider_image','') != '') { ?>
                 <li data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;"  style="background:url('<?php echo esc_url(get_theme_mod('second_slider_image')); ?>');">
                     <div class="over-lay">
@@ -40,7 +51,7 @@
                 </li>
                 <?php } ?>
 
-                 <!-- #3 Slider -->
+                 <!-- #3 Slider 
                   <?php if (get_theme_mod('third_slider_image','') != '') { ?>
                 <li data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;"  style="background:url('<?php echo esc_url(get_theme_mod('third_slider_image')); ?>');">
                     <div class="over-lay">
@@ -60,6 +71,7 @@
             </ul>
         </div>
         </div>
+        -->
     </div>
     <div class="clearfix"></div>
     <?php } ?>

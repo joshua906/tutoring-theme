@@ -5,13 +5,14 @@
       <div class="home-hero">
        <div class="container">
        	<div class="row">
-       		<div class="col-md-6">
+       		<div class="col-md-5">
        			<h1 class="dark-blue-heading">Your reading and writing elementary school tutor!</h1>
-       			<p class="p-heading">Is your child struglging in reading or writing? No problem, I can help! </p>
+       			<p class="p-heading">Is your child struggling in reading or writing? No problem, I can help! </p>
        			<button class="button">Schedule your Appointment!</button>
        			
-       		</div>
-       		<div class="col-md-6"></div>
+   		  </div>
+       		<div class="col-md-7">
+		    <img src="<?php echo get_template_directory_uri(); ?>/images/tutoring-desk.svg" alt="Tutoring-image"/> </div>
        	</div>
        </div>
        </div>

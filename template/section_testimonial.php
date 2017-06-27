@@ -5,9 +5,9 @@ $subheading = get_theme_mod('our_testm_subheading','');
 ?>
 <input type="hidden" id="testimonial_slidespeed" value="<?php if (get_theme_mod('test_slider_speed','') != '') { echo stripslashes(get_theme_mod('test_slider_speed')); } else { ?>3000<?php } ?>"/>
 <div class="testimonials-wrapper">
-	<?php 
+	<!--<?php 
 echo  oneline_lite_svg_enable(); 
-?>
+?>-->
 <section class="testimonials svg_enable" id="testimonials" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;">
 		<div class="container" >
 		<?php if($heading!==''|| $subheading!=='') { ?>

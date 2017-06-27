@@ -2,15 +2,18 @@
 <div id="slider-div">
 
     <div id="page-top" class="slider">  
+      <div class="home-hero">
        <div class="container">
        	<div class="row">
-       		<div class="col-md-5">
-       			<h1>Your reading and writing elementary school tutor!</h1>
-       			<p>Is your child struglging in reading or writing? No problem, I can help! </p>
+       		<div class="col-md-6">
+       			<h1 class="dark-blue-heading">Your reading and writing elementary school tutor!</h1>
+       			<p class="p-heading">Is your child struglging in reading or writing? No problem, I can help! </p>
        			<button class="button">Schedule your Appointment!</button>
+       			
        		</div>
-       		<div class="col-md-7"></div>
+       		<div class="col-md-6"></div>
        	</div>
+       </div>
        </div>
         <!--<div class="flexslider">
             <ul class="slides">

@@ -3,11 +3,28 @@
 $heading = get_theme_mod('blog_heading','');
 $subheading = get_theme_mod('blog_subheading','');
 ?>
-<div class="post-wrapper">
-  <?php
-  echo  oneline_lite_svg_enable();
-  ?>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Schedule your appointment Today!</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<h1></h1>
+		</div>
+		<div class="col-md-8">
+			<p>You will see my Summertime availabilty listed below. Times will change once the sxchool year starts. Please contact me for further details! </p>
+
+			<p>Monday- Saturday : 9:00 - 7:00</p>
+		</div>
+	</div>
 </div>
+<div class="post-wrapper">
+ <!-- <?php echo  oneline_lite_svg_enable(); ?>-->
+</div>
+<!--
 <section id="latest-post" class="svg_enable" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;">
   <div class="container">
     <div class="page-post">
@@ -62,6 +79,7 @@ echo do_shortcode("[themehunk-customizer-oneline-lite did='6']");
     </div>
   </div>
 </section>
+-->
 </div>
 <!-- LATEST POST END -->
 <div class="clearfix"></div>

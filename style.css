@@ -126,6 +126,50 @@ letter-spacing:0px;
  
 }
 
+
+
+@media screen and (max-width: 767px) {
+	
+	.container-new{
+		max-width: 576px !important;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.services img {
+	padding: 30px 0px;
+}
+	
+	.home-hero h1 {
+		font-size: 36px;
+		margin-top: 30px;
+	}
+	
+	.home-hero {
+		text-align: center;
+		align-content: center;
+	}
+	
+	
+}
+
+@media screen and (max-width: 500px) {
+		.home-hero h1 {
+		font-size: 28px;
+		margin-top: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 h1 {
   font-size: 44px;
 }
@@ -245,7 +289,7 @@ padding: 1.6em;
 	border-radius: 25px;
 	border: none;
 	font-family: "Montserrat-Regular";
-	box-shadow: 6px 6px 5px rgba(86,91,111,.3);
+	box-shadow: 6px 6px 5px rgba(86,91,111,.2);
 }
 /* wp css */
 .single-post .sl-related-thumbnail-size img{
@@ -1216,6 +1260,7 @@ position: relative;
 	font-weight: 700;
 	font-size: 36px;
 }
+
 #services
 { 
 display:block;
@@ -1458,6 +1503,29 @@ margin:0 auto;
 /*end testimonials style*/
 
 
+
+
+
+/*contact melina section */
+
+.contact-section h1 {
+	color: #565C6F;
+	font-weight: 700;
+	letter-spacing: 0px;
+	text-align: center;
+	padding: 65px 0px 50px 0px;
+}
+
+.contact-section span {
+	font-size: 25px;
+	font-weight: 700;
+	color: #90DBE2;
+}
+
+.contact-section {
+	padding-bottom: 100px;
+}
+/* end contact section*/
 
 /* testimony section */
 
@@ -2980,9 +3048,17 @@ font-size:18px;
 .foot-copyright{
   width:100%;
   float: right;
-  background-color: #1F1F1F;
+  background-color: #565c6f !important;
+  color: #fff;
   padding-bottom:10px;
 
+}
+.foot-copyright p {
+	font-family: "Montserrat-Light";
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 0px;
+	padding-top: 45px;
 }
 .foot-copyright span.text-footer{
   color:#fff;

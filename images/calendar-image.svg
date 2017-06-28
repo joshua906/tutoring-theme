@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 170" style="enable-background:new 0 0 250 170;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CFDEF0;}
+	.st1{fill:#F9DEAC;}
+	.st2{fill:none;stroke:#565C6F;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#565C6F;stroke-width:1.5;stroke-miterlimit:10;}
+	.st4{fill:#565C6F;}
+	.st5{font-family:'Montserrat-Regular';}
+	.st6{font-size:14.2359px;}
+	.st7{fill:none;stroke:#565C6F;stroke-width:0.5;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#CFDEF0;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M218.9,166.7H33.6c-3.9,0-7-3.1-7-7V54h199.3v105.7C225.9,163.6,222.7,166.7,218.9,166.7z"/>
+	<rect x="50.3" y="74.2" class="st1" width="24.9" height="24.9"/>
+	<rect x="172.5" y="99.1" class="st1" width="23.7" height="23.7"/>
+	<rect x="98.9" y="122.8" class="st1" width="24.9" height="24.9"/>
+	<path class="st2" d="M218.9,166.7H33.6c-3.9,0-7-3.1-7-7V27.8c0-3.9,3.1-7,7-7h185.3c3.9,0,7,3.1,7,7v131.9
+		C225.9,163.6,222.7,166.7,218.9,166.7z"/>
+	<g>
+		<line class="st3" x1="49.7" y1="12.5" x2="49.7" y2="29.1"/>
+		<line class="st3" x1="44.9" y1="12.5" x2="44.9" y2="29.1"/>
+	</g>
+	<g>
+		<line class="st3" x1="205.7" y1="12.5" x2="205.7" y2="29.1"/>
+		<line class="st3" x1="201" y1="12.5" x2="201" y2="29.1"/>
+	</g>
+	<line class="st3" x1="26.6" y1="54" x2="225.9" y2="54"/>
+	<text transform="matrix(1 0 0 1 88.2495 42.7471)" class="st4 st5 st6">Jannuary</text>
+	<g>
+		<line class="st7" x1="26.6" y1="74.2" x2="225.9" y2="74.2"/>
+		<line class="st7" x1="26.6" y1="98.7" x2="225.9" y2="98.7"/>
+		<line class="st7" x1="26.6" y1="123.2" x2="225.9" y2="123.2"/>
+		<line class="st7" x1="26.6" y1="147.7" x2="225.9" y2="147.7"/>
+		<line class="st7" x1="50.3" y1="166.7" x2="50.3" y2="55.2"/>
+		<line class="st7" x1="74.8" y1="166.7" x2="74.8" y2="55.2"/>
+		<line class="st7" x1="99.3" y1="166.7" x2="99.3" y2="55.2"/>
+		<line class="st7" x1="123.8" y1="166.7" x2="123.8" y2="55.2"/>
+		<line class="st7" x1="147.6" y1="166.7" x2="147.6" y2="55.2"/>
+		<line class="st7" x1="172.1" y1="166.7" x2="172.1" y2="55.2"/>
+		<line class="st7" x1="196.6" y1="166.7" x2="196.6" y2="55.2"/>
+	</g>
+</g>
+<circle class="st1" cx="17.1" cy="37.4" r="2.4"/>
+<g>
+	<path class="st1" d="M7.3,26.6V29h-1v-2.4H3.9v-1.1h2.4v-2.4h1v2.4h2.4v1.1H7.3z"/>
+</g>
+<circle class="st8" cx="19.3" cy="16" r="3.7"/>
+<circle class="st1" cx="151.1" cy="6.6" r="2.4"/>
+<g>
+	<path class="st1" d="M111.7,6.5v2.4h-1V6.5h-2.4V5.4h2.4V3h1v2.4h2.4v1.1H111.7z"/>
+</g>
+<circle class="st8" cx="15.8" cy="110.9" r="3.7"/>
+<circle class="st0" cx="238.9" cy="63.5" r="2.4"/>
+<g>
+	<path class="st1" d="M237.5,145.3v2.4h-1v-2.4H234v-1.1h2.4v-2.4h1v2.4h2.4v1.1H237.5z"/>
+</g>
+<circle class="st8" cx="242.3" cy="78.8" r="3.7"/>
+<g>
+	<path class="st1" d="M13.3,123.9v2.4h-1v-2.4H9.8v-1.1h2.4v-2.4h1v2.4h2.4v1.1H13.3z"/>
+</g>
+</svg>

@@ -19,14 +19,24 @@ if ( is_active_sidebar( 'first-footer-widget-area'  )
 ?>
 </div>
 <div class="foot-copyright">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+			<p>coyright 2016</p>
+		</div>
+		<div class="col-sm-6">
+			<p>site created by matthews designs</p>
+		</div>
+	</div>
+</div>
 <?php if( get_theme_mod('copyright_text')!=''){
 echo '<span class="text-footer">'.esc_html(get_theme_mod( 'copyright_text')).'</span>';
 } else { ?>
 
-<span class="text-footer">
+<!--<span class="text-footer">
 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 <a href="<?php echo esc_url( __( 'https://themehunk.com/', 'oneline-lite' ) ); ?>"><?php printf( __('Powered by %s', 'oneline-lite' ), 'ThemeHunk' ); ?></a>
-</span>
+</span>-->
 <?php } ?>
 <div class="social-ft">
   <?php oneline_lite_social_links(); ?>

@@ -3,23 +3,26 @@
 $heading = get_theme_mod('blog_heading','');
 $subheading = get_theme_mod('blog_subheading','');
 ?>
-
-<div class="container">
+<div class="contact-section">
+<div class="container-new">
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Schedule your appointment Today!</h1>
+			<h1 class="">Schedule your appointment Today!</h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-4">
-			<h1></h1>
-		</div>
-		<div class="col-md-8">
+		<!--<div class="col-md-4">
+	    <img src="<?php echo get_template_directory_uri(); ?>/images/calendar-image.svg" alt="Calendar"/> </div>-->
+		<div class="col-md-12 contact-paragraph text-center">
 			<p>You will see my Summertime availabilty listed below. Times will change once the sxchool year starts. Please contact me for further details! </p>
 
 			<p>Monday- Saturday : 9:00 - 7:00</p>
+			
+			<p><span>212-422-8721</span></p>
+			<p><span>Email@cs.com</span></p>
 		</div>
 	</div>
+</div>
 </div>
 <div class="post-wrapper">
  <!-- <?php echo  oneline_lite_svg_enable(); ?>-->

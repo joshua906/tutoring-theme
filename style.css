@@ -922,7 +922,7 @@ display: inline-block;
 text-decoration: none;
 color: white; 
 padding-bottom:8px; 
-font-size: 12px;
+font-size: 15px;
 letter-spacing: 2px;
 text-transform: uppercase;
 font-weight: 300;
@@ -962,7 +962,7 @@ position: absolute;
 left: 0;
 bottom: 0;
 width: 0;
-height: 2px;
+height: 0px;
 background:#D4B068;
 }
 .navigation ul li a:hover:before{
@@ -1004,7 +1004,7 @@ transition-timing-function: ease;
 transition-delay: initial;
 }
 .home .navigation ul li a.active{
-color: #D4B068;
+color: none;
 }
 .home .navigation ul li a.active:before {
     width: 100%;
@@ -1015,7 +1015,7 @@ background-color:#fff;
 color:#666;
 }
 .home .smaller .navigation ul li a.active{
-color: #D4B068;
+color: #565C6F;
 }
 .navigation ul ul { display: none }
 .navigation ul ul ul {
@@ -1557,7 +1557,7 @@ margin:0 auto;
 	color: #565C6F;
 }
 .container-card {
-    padding: 6px 16px;
+    padding: 25px 16px;
 }
 
 /* End testimony section */
@@ -5092,7 +5092,7 @@ float: none;
     height:35px;
     text-indent:-9999px;
     display:none;
-    border:1px solid #D4B068;
+    border:1px solid #90DBE2;
     z-index:5;
 }
 #scroll span {
@@ -5104,7 +5104,7 @@ float: none;
     height:0;
     width:0;
     border:8px solid transparent;
-    border-bottom-color:#D4B068;
+    border-bottom-color:#90DBE2;
    
 }
 #scroll:hover {

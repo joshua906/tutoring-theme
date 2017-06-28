@@ -34,18 +34,22 @@ $ribbon_button_text = get_theme_mod('ribbon_button_text','');
 						</div>
 					</div>
                 	
+                	
                  	<!-- sightwords -->
                    <div class="spacing"></div>
                   	<div class="row">
-						<div class="col-md-5 col-md-push-7">
+						<div class="col-md-offset-1 col-sm-6 col-md-5 col-md-push-6">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/sight-words.svg" alt="sight-words-image"/> 
+
+						</div>
+						<div class="col-sm-6 col-md-6 col-md-pull-5">
+
 							<h5 class="dark-blue-topic-headings">Sight Words</h5>
 							<p>Some words are difficult to decode and therefore must be memorized and recognized by site. Words such as The, go, could, said, long, most, know make up approximately 65% of the words we see.</p>
 							<p>Learning these words will help readers recognize words that have a more complex spelling rules and words that cant be sounded out, which help the child become aproficient reader and writer.</p>
 						</div>
-						<div class="col-md-offset-1 col-md-6 col-md-pull-6">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/sight-words.svg" alt="sight-words-image"/> 
-						</div>
 					</div>
+                 	
                  	
                  	<!-- Spelling -->
                    <div class="spacing"></div>

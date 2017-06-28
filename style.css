@@ -144,8 +144,21 @@ h5 {
 h6 {
   font-size: 14px;
 }
+hr {
+	width: 25%;
+	border-top: 3px solid #565c6f;
+	text-align: left !important;
+}
 .dark-blue{
 	color: #565C6F;
+}
+.dark-blue-topic-headings{
+	color: #565C6F;
+	font-weight: 700;
+}
+.dark-blue-topics{
+	color: #565C6F;
+	padding-bottom: 30px;
 }
 
 .dark-blue-heading {
@@ -156,7 +169,9 @@ h6 {
     margin-top: 75px;
 }
 
-
+.spacing {
+	padding-top: 100px;
+}
 .p-heading {
 	color: #565C6F;
 	font-size: 20px;
@@ -1160,10 +1175,27 @@ z-index:4;
 /*end svg style*/
 section{
 padding-top: 70px;
-padding-bottom: 700px;
+padding-bottom: 100px;
 position: relative;
 }
  /*------start service section style--------*/
+.the-work{
+	background-color: #565c6f;
+	color: #fff;
+}
+.the-work h1 {
+	font-size: 36px;
+	font-weight: 700;
+	padding: 80px 0px 50px 0px;
+	
+}
+.the-work h5{
+	color: #90dbe2;
+}
+.the-work p{
+	color: #fff;
+	font-family: "RobotoSlab-Regular";
+}
 .services-more{
 	color: #90DBE2;
 	font-size: 17px;

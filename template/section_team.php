@@ -4,7 +4,8 @@ if( shortcode_exists( 'themehunk-customizer-oneline-lite' ) ) {
     $heading = get_theme_mod('team_heading','');
     $subheading = get_theme_mod('team_subheading','');
 ?>
-<div class="container">
+<div class="the-work">
+<div class="container-new">
 	<div class="row">
 		<div class="col-md-12">
 			<h1>My process for your childs success</h1>
@@ -13,30 +14,30 @@ if( shortcode_exists( 'themehunk-customizer-oneline-lite' ) ) {
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<h4>1. Discovery</h4>
+			<h5>1. Discovery</h4>
 			<p>Finding out where the student is in their progression</p>
 		</div>
 		<div class="col-md-6">
-			<h4>2. Relationship</h4>
+			<h5>2. Relationship</h4>
 			<p>Developing a relationship with the student and getting to know their learning style </p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-6">
-			<h4>3. Lesson Plan</h4>
+			<h5>3. Lesson Plan</h4>
 			<p>Finding out where the student is in their progression</p>
 		</div>
 		<div class="col-md-6">
-			<h4>4. Educate</h4>
+			<h5>4. Educate</h4>
 			<p>Developing a relationship with the student and getting to know their learning style </p>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-md-12">
-			<h1>Image goes here</h1>
-			
-		</div>
+	    <img src="<?php echo get_template_directory_uri(); ?>/images/process-image.svg" alt="process-image"/> 
+	    </div>
 	</div>
+</div>
 </div>
 <!--<div class="team-wrapper">
 <section id="team" class="svg_enable" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;">

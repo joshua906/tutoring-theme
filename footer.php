@@ -19,7 +19,6 @@ if ( is_active_sidebar( 'first-footer-widget-area'  )
 ?>
 </div>
 <div class="foot-copyright">
-<?php echo oneline_lite_svg_enable(); ?>
 <?php if( get_theme_mod('copyright_text')!=''){
 echo '<span class="text-footer">'.esc_html(get_theme_mod( 'copyright_text')).'</span>';
 } else { ?>

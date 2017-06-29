@@ -215,9 +215,7 @@ if (themehunk_customscript.responsive && themehunk_customscript.nav_menu != 'non
         } else {
            jQuery(".header").removeClass("smaller");
         }
-    });
-
-    
+    });	 
 	
 	});
  /* start flex slider*/
@@ -359,5 +357,9 @@ jQuery(document).ready(function(){
         return false; 
     }); 
 });
+
+
+
+//toggle 
 
 

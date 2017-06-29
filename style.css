@@ -468,7 +468,7 @@ color:#666;
   right: 0;
   bottom: 0;
   background-color: #fefefe;
-  z-index: 99999;
+  z-index: 80;
   height: 100%;
   width: 100%;
   overflow: hidden !important;
@@ -542,6 +542,7 @@ li.nav-previous a:after {
 /*slider css start*/
 .home-hero{
 	margin: 210px 0px 90px 0px ;
+	z-index: 99999;
 }
 
 #slider-div{
@@ -1101,7 +1102,7 @@ background-repeat: no-repeat ;
 background: rgba(0, 0, 0, 0.55);
 top:0px;
 width: 100%;
-z-index:9999; 
+z-index:1; 
 height:100%;    
 }
 .fs-caption {
@@ -3148,7 +3149,7 @@ a#pull:after {
     width: 100%;
     top: 0;
     background-color: rgba(19, 19, 19, 0.56);
-    z-index: -1;
+    z-index: 0;
 }
 .clearfix:before, .clearfix:after {
     content: " ";
@@ -5347,6 +5348,7 @@ height: auto;
 /*End Gallery page style*/
 
 /*upadated image overlay color */
+/*
 #team:before,#services:before,#latest-post:before,#woo-section:before {
     content: '';
     background: rgba(0, 0,0, 0);
@@ -5369,3 +5371,4 @@ height: auto;
     z-index: 0;
     display: block;
 }
+*/

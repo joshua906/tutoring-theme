@@ -3,7 +3,7 @@
 $heading = get_theme_mod('blog_heading','');
 $subheading = get_theme_mod('blog_subheading','');
 ?>
-<div class="contact-section">
+<div id="latest-post" class="contact-section">
 <div class="container-new">
 	<div class="row">
 		<div class="col-md-12">
@@ -18,8 +18,8 @@ $subheading = get_theme_mod('blog_subheading','');
 
 			<p>Monday- Saturday : 9:00 - 7:00</p>
 			
-			<p><span>212-422-8721</span></p>
-			<p><span>Email@cs.com</span></p>
+		
+			<button class="button"><a href="mailto:webmaster@example.com">Email@cs.com</a></buton>
 		</div>
 	</div>
 </div>

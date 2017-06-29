@@ -242,12 +242,13 @@ ul, ul li, ol, ol li{
     letter-spacing: .2px;
 }
 a:hover, a:focus {
-    color: #D4B068;
+    color: #fff;
     outline: none;
+	text-decoration: none;
 }
 a{ 
     text-decoration:none; 
-    color: #D4B068;
+    color: #fff;
 }
 img { max-width:100%; }
 
@@ -830,7 +831,7 @@ letter-spacing: .5px;
 color: #D4B068;;
 }
 .header.smaller {
-background-color:rgba(86, 92, 111, 0.952941); 
+background-color:rgba(144, 219, 226, 0.952941); 
 	border-bottom: none;
 }
 .header.smaller #logo {
@@ -1891,7 +1892,7 @@ margin-right: -30%;
 #team{
 display:block;
 overflow: hidden;
-background-color:#fff;
+background-color:#565c6f;
 }
 .page-team{
 width: 100%;

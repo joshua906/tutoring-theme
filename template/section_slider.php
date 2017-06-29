@@ -1,5 +1,5 @@
 <?php  if( shortcode_exists( 'themehunk-customizer-oneline-lite' ) ) {  ?>
-<div id="slider-div">
+<div id="">
 
     <div id="page-top" class="slider">  
       <div class="home-hero">
@@ -11,7 +11,7 @@
        		<div class="col-md-5 col-md-pull-7">
 		       <h1 class="dark-blue-heading">Your reading and writing elementary school tutor!</h1>
        			<p class="p-heading">Is your child struggling in reading or writing? No problem, I can help! </p>
-       			<button class="button">Schedule your Appointment!</button>
+       			<a href="mailto:webmaster@example.com"><button class="button">Schedule your Appointment!</button></a>
       		</div>
        	</div>
        </div>

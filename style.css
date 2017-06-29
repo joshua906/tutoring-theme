@@ -128,7 +128,7 @@ letter-spacing:0px;
 
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
 	
 	.container-new{
 		max-width: 576px !important;
@@ -136,9 +136,17 @@ letter-spacing:0px;
 		padding-right: 15px;
 	}
 	.services img {
-	padding: 30px 0px;
+	padding: 20px 0px;
+}
+	.footer-text-right{
+	text-align: left;
 }
 	
+	
+}
+
+
+@media screen and (max-width: 767px){
 	.home-hero h1 {
 		font-size: 36px;
 		margin-top: 30px;
@@ -148,10 +156,7 @@ letter-spacing:0px;
 		text-align: center;
 		align-content: center;
 	}
-	
-	
 }
-
 @media screen and (max-width: 500px) {
 		.home-hero h1 {
 		font-size: 28px;
@@ -850,9 +855,15 @@ transition: all 0.3s;
 .container-new, #page{
 	max-width:950px;
 	margin-right: auto;
-margin-left: auto;
+	margin-left: auto;
+	padding: 0px 15px;
 }
-
+.container-new {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .container, #page
 {
@@ -3005,6 +3016,9 @@ color:#D4B068;
     padding-top:50px;
     padding-bottom: 50px;
 }
+.footer-text-right{
+	text-align: right;
+}
  .footer-wrapper {
     background-color:#fff;
   
@@ -3914,7 +3928,7 @@ padding-top:10px;
 /* Footer Style End */
 @media screen and (max-width: 1230px){
 #page, .container {
-    max-width: 96%;
+    max-width: 100%;
 }
 }
 /*star responsive menu style */

@@ -24,7 +24,7 @@ if ( is_active_sidebar( 'first-footer-widget-area'  )
 		<div class="col-sm-6">
 			<p>coyright 2016</p>
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-6 footer-text-right">
 			<p>site created by matthews designs</p>
 		</div>
 	</div>

@@ -4,7 +4,7 @@ if( shortcode_exists( 'themehunk-customizer-oneline-lite' ) ) {
     $heading = get_theme_mod('team_heading','');
     $subheading = get_theme_mod('team_subheading','');
 ?>
-<div class="the-work">
+<div class="the-work" id="team">
 <div class="container-new">
 	<div class="row">
 		<div class="col-md-12">

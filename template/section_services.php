@@ -42,7 +42,10 @@ $subheading = get_theme_mod('our_services_subheading','');
     			<p class="services-white wow fadeInRight" data-wow-delay="0s">I do that by working with students one on one or within a group setting and catering a unique lesson plan for each individual that achieves optimal growth.I believe in order to teach a child you must create a relationship first with the child, By doing this I am able to learn about them and their learning style which helps me cater lesson plans that build confidence and understanding of course material. </p>
     			
     			<p class="services-more wow fadeInRight" data-wow-delay=".2s"><b>Learn More About Janes Jounrey to becoming a teacher  here >></b></p>
+    			
+    			
     		</div>
+    		
     	</div>
     </div>
 </section>
